@@ -1,200 +1,162 @@
 import 'package:flutter/widgets.dart';
 
+import 'cocoicons_data.dart';
+
 class CocoIconBold {
   CocoIconBold._();
 
   static const String _fontFamily = 'cocobold';
 
-  static const IconData Add = IconData(0xe900, fontFamily: _fontFamily);
-  static const IconData Arrow___Bottom_1 =
-      IconData(0xe901, fontFamily: _fontFamily);
-  static const IconData Arrow___Bottom_2 =
-      IconData(0xe902, fontFamily: _fontFamily);
-  static const IconData Arrow___Bottom_3 =
-      IconData(0xe903, fontFamily: _fontFamily);
-  static const IconData Arrow___Bottom =
-      IconData(0xe904, fontFamily: _fontFamily);
-  static const IconData Arrow___Left_1 =
-      IconData(0xe905, fontFamily: _fontFamily);
-  static const IconData Arrow___Left_2 =
-      IconData(0xe906, fontFamily: _fontFamily);
-  static const IconData Arrow___Left_3 =
-      IconData(0xe907, fontFamily: _fontFamily);
-  static const IconData Arrow___Left =
-      IconData(0xe908, fontFamily: _fontFamily);
-  static const IconData Arrow___Right_1 =
-      IconData(0xe909, fontFamily: _fontFamily);
-  static const IconData Arrow___Right_2 =
-      IconData(0xe90a, fontFamily: _fontFamily);
-  static const IconData Arrow___Right_3 =
-      IconData(0xe90b, fontFamily: _fontFamily);
-  static const IconData Arrow___Right =
-      IconData(0xe90c, fontFamily: _fontFamily);
-  static const IconData Arrow___Swap =
-      IconData(0xe90d, fontFamily: _fontFamily);
-  static const IconData Arrow___Top_1 =
-      IconData(0xe90e, fontFamily: _fontFamily);
-  static const IconData Arrow___Top_2 =
-      IconData(0xe90f, fontFamily: _fontFamily);
-  static const IconData Arrow___Top_3 =
-      IconData(0xe910, fontFamily: _fontFamily);
-  static const IconData Arrow___Top = IconData(0xe911, fontFamily: _fontFamily);
-  static const IconData Award = IconData(0xe912, fontFamily: _fontFamily);
-  static const IconData Bag___2 = IconData(0xe913, fontFamily: _fontFamily);
-  static const IconData Bag = IconData(0xe914, fontFamily: _fontFamily);
-  static const IconData Battery = IconData(0xe915, fontFamily: _fontFamily);
-  static const IconData Calendar = IconData(0xe916, fontFamily: _fontFamily);
-  static const IconData Call___Calling =
-      IconData(0xe917, fontFamily: _fontFamily);
-  static const IconData Call___Muted =
-      IconData(0xe918, fontFamily: _fontFamily);
-  static const IconData Call___Slash =
-      IconData(0xe919, fontFamily: _fontFamily);
-  static const IconData Camera___Slash =
-      IconData(0xe91a, fontFamily: _fontFamily);
-  static const IconData Camera = IconData(0xe91b, fontFamily: _fontFamily);
-  static const IconData Card = IconData(0xe91c, fontFamily: _fontFamily);
-  static const IconData Charge = IconData(0xe91d, fontFamily: _fontFamily);
-  static const IconData Chart = IconData(0xe91e, fontFamily: _fontFamily);
-  static const IconData Check = IconData(0xe91f, fontFamily: _fontFamily);
-  static const IconData Checklist = IconData(0xe920, fontFamily: _fontFamily);
-  static const IconData Clock = IconData(0xe921, fontFamily: _fontFamily);
-  static const IconData Close = IconData(0xe922, fontFamily: _fontFamily);
-  static const IconData Cloud___Drizzle =
-      IconData(0xe923, fontFamily: _fontFamily);
-  static const IconData Cloud___Lightning =
-      IconData(0xe924, fontFamily: _fontFamily);
-  static const IconData Cloud_1 = IconData(0xe925, fontFamily: _fontFamily);
-  static const IconData Cloud = IconData(0xe926, fontFamily: _fontFamily);
-  static const IconData Comparison = IconData(0xe927, fontFamily: _fontFamily);
-  static const IconData Copy = IconData(0xe928, fontFamily: _fontFamily);
-  static const IconData CPU = IconData(0xe929, fontFamily: _fontFamily);
-  static const IconData Cup = IconData(0xe92a, fontFamily: _fontFamily);
-  static const IconData Discovery = IconData(0xe92b, fontFamily: _fontFamily);
-  static const IconData Document = IconData(0xe92c, fontFamily: _fontFamily);
-  static const IconData Dollar = IconData(0xe92d, fontFamily: _fontFamily);
-  static const IconData Edit___2 = IconData(0xe92e, fontFamily: _fontFamily);
-  static const IconData Edit___3 = IconData(0xe92f, fontFamily: _fontFamily);
-  static const IconData Edit_1 = IconData(0xe930, fontFamily: _fontFamily);
-  static const IconData Edit = IconData(0xe931, fontFamily: _fontFamily);
-  static const IconData Export = IconData(0xe932, fontFamily: _fontFamily);
-  static const IconData Eye___Slash = IconData(0xe933, fontFamily: _fontFamily);
-  static const IconData Eye = IconData(0xe934, fontFamily: _fontFamily);
-  static const IconData Filter = IconData(0xe935, fontFamily: _fontFamily);
-  static const IconData Folder = IconData(0xe936, fontFamily: _fontFamily);
-  static const IconData Gallery = IconData(0xe937, fontFamily: _fontFamily);
-  static const IconData GPS = IconData(0xe938, fontFamily: _fontFamily);
-  static const IconData Grid___2 = IconData(0xe939, fontFamily: _fontFamily);
-  static const IconData Grid___3 = IconData(0xe93a, fontFamily: _fontFamily);
-  static const IconData Grid = IconData(0xe93b, fontFamily: _fontFamily);
-  static const IconData Headphone_slash =
-      IconData(0xe93c, fontFamily: _fontFamily);
-  static const IconData Headphone = IconData(0xe93d, fontFamily: _fontFamily);
-  static const IconData Heart = IconData(0xe93e, fontFamily: _fontFamily);
-  static const IconData Home___2 = IconData(0xe93f, fontFamily: _fontFamily);
-  static const IconData Home = IconData(0xe940, fontFamily: _fontFamily);
-  static const IconData Info = IconData(0xe941, fontFamily: _fontFamily);
-  static const IconData Insta = IconData(0xe942, fontFamily: _fontFamily);
-  static const IconData Loading_1 = IconData(0xe943, fontFamily: _fontFamily);
-  static const IconData Loading = IconData(0xe944, fontFamily: _fontFamily);
-  static const IconData Location = IconData(0xe945, fontFamily: _fontFamily);
-  static const IconData Lock_1 = IconData(0xe946, fontFamily: _fontFamily);
-  static const IconData Lock = IconData(0xe947, fontFamily: _fontFamily);
-  static const IconData Marking = IconData(0xe948, fontFamily: _fontFamily);
-  static const IconData Menu_1 = IconData(0xe949, fontFamily: _fontFamily);
-  static const IconData Menu = IconData(0xe94a, fontFamily: _fontFamily);
-  static const IconData Message___2 = IconData(0xe94b, fontFamily: _fontFamily);
-  static const IconData Message___3 = IconData(0xe94c, fontFamily: _fontFamily);
-  static const IconData Message___4 = IconData(0xe94d, fontFamily: _fontFamily);
-  static const IconData Message_5 = IconData(0xe94e, fontFamily: _fontFamily);
-  static const IconData Message = IconData(0xe94f, fontFamily: _fontFamily);
-  static const IconData Mic = IconData(0xe950, fontFamily: _fontFamily);
-  static const IconData Minus = IconData(0xe951, fontFamily: _fontFamily);
-  static const IconData Mobile = IconData(0xe952, fontFamily: _fontFamily);
-  static const IconData Monitor = IconData(0xe953, fontFamily: _fontFamily);
-  static const IconData Moon_1 = IconData(0xe954, fontFamily: _fontFamily);
-  static const IconData Moon = IconData(0xe955, fontFamily: _fontFamily);
-  static const IconData More___Circle =
-      IconData(0xe956, fontFamily: _fontFamily);
-  static const IconData More = IconData(0xe957, fontFamily: _fontFamily);
-  static const IconData Mouse = IconData(0xe958, fontFamily: _fontFamily);
-  static const IconData Note___2 = IconData(0xe959, fontFamily: _fontFamily);
-  static const IconData Note___3 = IconData(0xe95a, fontFamily: _fontFamily);
-  static const IconData Note_add = IconData(0xe95b, fontFamily: _fontFamily);
-  static const IconData Note_check = IconData(0xe95c, fontFamily: _fontFamily);
-  static const IconData Note_delete = IconData(0xe95d, fontFamily: _fontFamily);
-  static const IconData Note_minus = IconData(0xe95e, fontFamily: _fontFamily);
-  static const IconData Note = IconData(0xe95f, fontFamily: _fontFamily);
-  static const IconData Notification___2 =
-      IconData(0xe960, fontFamily: _fontFamily);
-  static const IconData Notification___3 =
-      IconData(0xe961, fontFamily: _fontFamily);
-  static const IconData Notification_1 =
-      IconData(0xe962, fontFamily: _fontFamily);
-  static const IconData Notification =
-      IconData(0xe963, fontFamily: _fontFamily);
-  static const IconData Phone = IconData(0xe964, fontFamily: _fontFamily);
-  static const IconData Play_1 = IconData(0xe965, fontFamily: _fontFamily);
-  static const IconData Play = IconData(0xe966, fontFamily: _fontFamily);
-  static const IconData Plus = IconData(0xe967, fontFamily: _fontFamily);
-  static const IconData Presentation_1 =
-      IconData(0xe968, fontFamily: _fontFamily);
-  static const IconData Presentation =
-      IconData(0xe969, fontFamily: _fontFamily);
-  static const IconData Programming = IconData(0xe96a, fontFamily: _fontFamily);
-  static const IconData Question = IconData(0xe96b, fontFamily: _fontFamily);
-  static const IconData Report = IconData(0xe96c, fontFamily: _fontFamily);
-  static const IconData Reserve = IconData(0xe96d, fontFamily: _fontFamily);
-  static const IconData Rotate___Left =
-      IconData(0xe96e, fontFamily: _fontFamily);
-  static const IconData Rotate___Right =
-      IconData(0xe96f, fontFamily: _fontFamily);
-  static const IconData Saved = IconData(0xe970, fontFamily: _fontFamily);
-  static const IconData Scan___2 = IconData(0xe971, fontFamily: _fontFamily);
-  static const IconData Scan___3 = IconData(0xe972, fontFamily: _fontFamily);
-  static const IconData Scan = IconData(0xe973, fontFamily: _fontFamily);
-  static const IconData Search = IconData(0xe974, fontFamily: _fontFamily);
-  static const IconData Send = IconData(0xe975, fontFamily: _fontFamily);
-  static const IconData Setting___2 = IconData(0xe976, fontFamily: _fontFamily);
-  static const IconData Setting___3 = IconData(0xe977, fontFamily: _fontFamily);
-  static const IconData Setting = IconData(0xe978, fontFamily: _fontFamily);
-  static const IconData Shield___check =
-      IconData(0xe979, fontFamily: _fontFamily);
-  static const IconData Shield___vulnerable =
-      IconData(0xe97a, fontFamily: _fontFamily);
-  static const IconData Shield = IconData(0xe97b, fontFamily: _fontFamily);
-  static const IconData Shopping_Cart =
-      IconData(0xe97c, fontFamily: _fontFamily);
-  static const IconData Sort = IconData(0xe97d, fontFamily: _fontFamily);
-  static const IconData Star = IconData(0xe97e, fontFamily: _fontFamily);
-  static const IconData Status = IconData(0xe97f, fontFamily: _fontFamily);
-  static const IconData Sun = IconData(0xe980, fontFamily: _fontFamily);
-  static const IconData Sunrise = IconData(0xe981, fontFamily: _fontFamily);
-  static const IconData Text = IconData(0xe982, fontFamily: _fontFamily);
-  static const IconData Tick = IconData(0xe983, fontFamily: _fontFamily);
-  static const IconData Todo = IconData(0xe984, fontFamily: _fontFamily);
-  static const IconData Trash___2 = IconData(0xe985, fontFamily: _fontFamily);
-  static const IconData Trash = IconData(0xe986, fontFamily: _fontFamily);
-  static const IconData Turn_off = IconData(0xe987, fontFamily: _fontFamily);
-  static const IconData TV = IconData(0xe988, fontFamily: _fontFamily);
-  static const IconData Two_user = IconData(0xe989, fontFamily: _fontFamily);
-  static const IconData Unlock = IconData(0xe98a, fontFamily: _fontFamily);
-  static const IconData User___Scan = IconData(0xe98b, fontFamily: _fontFamily);
-  static const IconData User_plus = IconData(0xe98c, fontFamily: _fontFamily);
-  static const IconData User = IconData(0xe98d, fontFamily: _fontFamily);
-  static const IconData Video = IconData(0xe98e, fontFamily: _fontFamily);
-  static const IconData Volume___Cross =
-      IconData(0xe98f, fontFamily: _fontFamily);
-  static const IconData Volume___High =
-      IconData(0xe990, fontFamily: _fontFamily);
-  static const IconData Volume___Low =
-      IconData(0xe991, fontFamily: _fontFamily);
-  static const IconData Volume___Mute =
-      IconData(0xe992, fontFamily: _fontFamily);
-  static const IconData Volume___Slash =
-      IconData(0xe993, fontFamily: _fontFamily);
-  static const IconData Wallet = IconData(0xe994, fontFamily: _fontFamily);
-  static const IconData Work = IconData(0xe995, fontFamily: _fontFamily);
-  static const IconData Zoom___In = IconData(0xe996, fontFamily: _fontFamily);
-  static const IconData Zoom___Out = IconData(0xe997, fontFamily: _fontFamily);
+  static const IconData Add = CocoIconsData(0xe900, _fontFamily);
+  static const IconData Arrow_Bottom_1 = CocoIconsData(0xe901, _fontFamily);
+  static const IconData Arrow_Bottom_2 = CocoIconsData(0xe902, _fontFamily);
+  static const IconData Arrow_Bottom_3 = CocoIconsData(0xe903, _fontFamily);
+  static const IconData Arrow_Bottom = CocoIconsData(0xe904, _fontFamily);
+  static const IconData Arrow_Left_1 = CocoIconsData(0xe905, _fontFamily);
+  static const IconData Arrow_Left_2 = CocoIconsData(0xe906, _fontFamily);
+  static const IconData Arrow_Left_3 = CocoIconsData(0xe907, _fontFamily);
+  static const IconData Arrow_Left = CocoIconsData(0xe908, _fontFamily);
+  static const IconData Arrow_Right_1 = CocoIconsData(0xe909, _fontFamily);
+  static const IconData Arrow_Right_2 = CocoIconsData(0xe90a, _fontFamily);
+  static const IconData Arrow_Right_3 = CocoIconsData(0xe90b, _fontFamily);
+  static const IconData Arrow_Right = CocoIconsData(0xe90c, _fontFamily);
+  static const IconData Arrow_Swap = CocoIconsData(0xe90d, _fontFamily);
+  static const IconData Arrow_Top_1 = CocoIconsData(0xe90e, _fontFamily);
+  static const IconData Arrow_Top_2 = CocoIconsData(0xe90f, _fontFamily);
+  static const IconData Arrow_Top_3 = CocoIconsData(0xe910, _fontFamily);
+  static const IconData Arrow_Top = CocoIconsData(0xe911, _fontFamily);
+  static const IconData Award = CocoIconsData(0xe912, _fontFamily);
+  static const IconData Bag_2 = CocoIconsData(0xe913, _fontFamily);
+  static const IconData Bag = CocoIconsData(0xe914, _fontFamily);
+  static const IconData Battery = CocoIconsData(0xe915, _fontFamily);
+  static const IconData Calendar = CocoIconsData(0xe916, _fontFamily);
+  static const IconData Call_Calling = CocoIconsData(0xe917, _fontFamily);
+  static const IconData Call_Muted = CocoIconsData(0xe918, _fontFamily);
+  static const IconData Call_Slash = CocoIconsData(0xe919, _fontFamily);
+  static const IconData Camera_Slash = CocoIconsData(0xe91a, _fontFamily);
+  static const IconData Camera = CocoIconsData(0xe91b, _fontFamily);
+  static const IconData Card = CocoIconsData(0xe91c, _fontFamily);
+  static const IconData Charge = CocoIconsData(0xe91d, _fontFamily);
+  static const IconData Chart = CocoIconsData(0xe91e, _fontFamily);
+  static const IconData Check = CocoIconsData(0xe91f, _fontFamily);
+  static const IconData Checklist = CocoIconsData(0xe920, _fontFamily);
+  static const IconData Clock = CocoIconsData(0xe921, _fontFamily);
+  static const IconData Close = CocoIconsData(0xe922, _fontFamily);
+  static const IconData Cloud_Drizzle = CocoIconsData(0xe923, _fontFamily);
+  static const IconData Cloud_Lightning = CocoIconsData(0xe924, _fontFamily);
+  static const IconData Cloud_1 = CocoIconsData(0xe925, _fontFamily);
+  static const IconData Cloud = CocoIconsData(0xe926, _fontFamily);
+  static const IconData Comparison = CocoIconsData(0xe927, _fontFamily);
+  static const IconData Copy = CocoIconsData(0xe928, _fontFamily);
+  static const IconData CPU = CocoIconsData(0xe929, _fontFamily);
+  static const IconData Cup = CocoIconsData(0xe92a, _fontFamily);
+  static const IconData Discovery = CocoIconsData(0xe92b, _fontFamily);
+  static const IconData Document = CocoIconsData(0xe92c, _fontFamily);
+  static const IconData Dollar = CocoIconsData(0xe92d, _fontFamily);
+  static const IconData Edit_2 = CocoIconsData(0xe92e, _fontFamily);
+  static const IconData Edit_3 = CocoIconsData(0xe92f, _fontFamily);
+  static const IconData Edit_1 = CocoIconsData(0xe930, _fontFamily);
+  static const IconData Edit = CocoIconsData(0xe931, _fontFamily);
+  static const IconData Export = CocoIconsData(0xe932, _fontFamily);
+  static const IconData Eye_Slash = CocoIconsData(0xe933, _fontFamily);
+  static const IconData Eye = CocoIconsData(0xe934, _fontFamily);
+  static const IconData Filter = CocoIconsData(0xe935, _fontFamily);
+  static const IconData Folder = CocoIconsData(0xe936, _fontFamily);
+  static const IconData Gallery = CocoIconsData(0xe937, _fontFamily);
+  static const IconData GPS = CocoIconsData(0xe938, _fontFamily);
+  static const IconData Grid_2 = CocoIconsData(0xe939, _fontFamily);
+  static const IconData Grid_3 = CocoIconsData(0xe93a, _fontFamily);
+  static const IconData Grid = CocoIconsData(0xe93b, _fontFamily);
+  static const IconData Headphone_slash = CocoIconsData(0xe93c, _fontFamily);
+  static const IconData Headphone = CocoIconsData(0xe93d, _fontFamily);
+  static const IconData Heart = CocoIconsData(0xe93e, _fontFamily);
+  static const IconData Home_2 = CocoIconsData(0xe93f, _fontFamily);
+  static const IconData Home = CocoIconsData(0xe940, _fontFamily);
+  static const IconData Info = CocoIconsData(0xe941, _fontFamily);
+  static const IconData Insta = CocoIconsData(0xe942, _fontFamily);
+  static const IconData Loading_1 = CocoIconsData(0xe943, _fontFamily);
+  static const IconData Loading = CocoIconsData(0xe944, _fontFamily);
+  static const IconData Location = CocoIconsData(0xe945, _fontFamily);
+  static const IconData Lock_1 = CocoIconsData(0xe946, _fontFamily);
+  static const IconData Lock = CocoIconsData(0xe947, _fontFamily);
+  static const IconData Marking = CocoIconsData(0xe948, _fontFamily);
+  static const IconData Menu_1 = CocoIconsData(0xe949, _fontFamily);
+  static const IconData Menu = CocoIconsData(0xe94a, _fontFamily);
+  static const IconData Message_2 = CocoIconsData(0xe94b, _fontFamily);
+  static const IconData Message_3 = CocoIconsData(0xe94c, _fontFamily);
+  static const IconData Message_4 = CocoIconsData(0xe94d, _fontFamily);
+  static const IconData Message_5 = CocoIconsData(0xe94e, _fontFamily);
+  static const IconData Message = CocoIconsData(0xe94f, _fontFamily);
+  static const IconData Mic = CocoIconsData(0xe950, _fontFamily);
+  static const IconData Minus = CocoIconsData(0xe951, _fontFamily);
+  static const IconData Mobile = CocoIconsData(0xe952, _fontFamily);
+  static const IconData Monitor = CocoIconsData(0xe953, _fontFamily);
+  static const IconData Moon_1 = CocoIconsData(0xe954, _fontFamily);
+  static const IconData Moon = CocoIconsData(0xe955, _fontFamily);
+  static const IconData More_Circle = CocoIconsData(0xe956, _fontFamily);
+  static const IconData More = CocoIconsData(0xe957, _fontFamily);
+  static const IconData Mouse = CocoIconsData(0xe958, _fontFamily);
+  static const IconData Note_2 = CocoIconsData(0xe959, _fontFamily);
+  static const IconData Note_3 = CocoIconsData(0xe95a, _fontFamily);
+  static const IconData Note_add = CocoIconsData(0xe95b, _fontFamily);
+  static const IconData Note_check = CocoIconsData(0xe95c, _fontFamily);
+  static const IconData Note_delete = CocoIconsData(0xe95d, _fontFamily);
+  static const IconData Note_minus = CocoIconsData(0xe95e, _fontFamily);
+  static const IconData Note = CocoIconsData(0xe95f, _fontFamily);
+  static const IconData Notification_2 = CocoIconsData(0xe960, _fontFamily);
+  static const IconData Notification_3 = CocoIconsData(0xe961, _fontFamily);
+  static const IconData Notification_1 = CocoIconsData(0xe962, _fontFamily);
+  static const IconData Notification = CocoIconsData(0xe963, _fontFamily);
+  static const IconData Phone = CocoIconsData(0xe964, _fontFamily);
+  static const IconData Play_1 = CocoIconsData(0xe965, _fontFamily);
+  static const IconData Play = CocoIconsData(0xe966, _fontFamily);
+  static const IconData Plus = CocoIconsData(0xe967, _fontFamily);
+  static const IconData Presentation_1 = CocoIconsData(0xe968, _fontFamily);
+  static const IconData Presentation = CocoIconsData(0xe969, _fontFamily);
+  static const IconData Programming = CocoIconsData(0xe96a, _fontFamily);
+  static const IconData Question = CocoIconsData(0xe96b, _fontFamily);
+  static const IconData Report = CocoIconsData(0xe96c, _fontFamily);
+  static const IconData Reserve = CocoIconsData(0xe96d, _fontFamily);
+  static const IconData Rotate_Left = CocoIconsData(0xe96e, _fontFamily);
+  static const IconData Rotate_Right = CocoIconsData(0xe96f, _fontFamily);
+  static const IconData Saved = CocoIconsData(0xe970, _fontFamily);
+  static const IconData Scan_2 = CocoIconsData(0xe971, _fontFamily);
+  static const IconData Scan_3 = CocoIconsData(0xe972, _fontFamily);
+  static const IconData Scan = CocoIconsData(0xe973, _fontFamily);
+  static const IconData Search = CocoIconsData(0xe974, _fontFamily);
+  static const IconData Send = CocoIconsData(0xe975, _fontFamily);
+  static const IconData Setting_2 = CocoIconsData(0xe976, _fontFamily);
+  static const IconData Setting_3 = CocoIconsData(0xe977, _fontFamily);
+  static const IconData Setting = CocoIconsData(0xe978, _fontFamily);
+  static const IconData Shield_check = CocoIconsData(0xe979, _fontFamily);
+  static const IconData Shield_vulnerable = CocoIconsData(0xe97a, _fontFamily);
+  static const IconData Shield = CocoIconsData(0xe97b, _fontFamily);
+  static const IconData Shopping_Cart = CocoIconsData(0xe97c, _fontFamily);
+  static const IconData Sort = CocoIconsData(0xe97d, _fontFamily);
+  static const IconData Star = CocoIconsData(0xe97e, _fontFamily);
+  static const IconData Status = CocoIconsData(0xe97f, _fontFamily);
+  static const IconData Sun = CocoIconsData(0xe980, _fontFamily);
+  static const IconData Sunrise = CocoIconsData(0xe981, _fontFamily);
+  static const IconData Text = CocoIconsData(0xe982, _fontFamily);
+  static const IconData Tick = CocoIconsData(0xe983, _fontFamily);
+  static const IconData Todo = CocoIconsData(0xe984, _fontFamily);
+  static const IconData Trash_2 = CocoIconsData(0xe985, _fontFamily);
+  static const IconData Trash = CocoIconsData(0xe986, _fontFamily);
+  static const IconData Turn_off = CocoIconsData(0xe987, _fontFamily);
+  static const IconData TV = CocoIconsData(0xe988, _fontFamily);
+  static const IconData Two_user = CocoIconsData(0xe989, _fontFamily);
+  static const IconData Unlock = CocoIconsData(0xe98a, _fontFamily);
+  static const IconData User_Scan = CocoIconsData(0xe98b, _fontFamily);
+  static const IconData User_plus = CocoIconsData(0xe98c, _fontFamily);
+  static const IconData User = CocoIconsData(0xe98d, _fontFamily);
+  static const IconData Video = CocoIconsData(0xe98e, _fontFamily);
+  static const IconData Volume_Cross = CocoIconsData(0xe98f, _fontFamily);
+  static const IconData Volume_High = CocoIconsData(0xe990, _fontFamily);
+  static const IconData Volume_Low = CocoIconsData(0xe991, _fontFamily);
+  static const IconData Volume_Mute = CocoIconsData(0xe992, _fontFamily);
+  static const IconData Volume_Slash = CocoIconsData(0xe993, _fontFamily);
+  static const IconData Wallet = CocoIconsData(0xe994, _fontFamily);
+  static const IconData Work = CocoIconsData(0xe995, _fontFamily);
+  static const IconData Zoom_In = CocoIconsData(0xe996, _fontFamily);
+  static const IconData Zoom_Out = CocoIconsData(0xe997, _fontFamily);
 }
