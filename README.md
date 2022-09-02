@@ -1,5 +1,5 @@
 [![codecov](https://codecov.io/gh/Mastersam07/cocoicons/branch/master/graph/badge.svg)](https://codecov.io/gh/Mastersam07/cocoicons)
-[![Test](https://github.com/Mastersam07/cocoicons/actions/workflows/test.yml/badge.svg)](https://github.com/Mastersam07/cocoicons/actions/workflows/test.yml)
+[![Test](https://github.com/Mastersam07/cocoicons/actions/workflows/test.yaml/badge.svg?branch=master)](https://github.com/Mastersam07/cocoicons/actions/workflows/test.yaml)
 [![pub package](https://img.shields.io/pub/v/cocoicons.svg?color=success&style=flat-square)](https://pub.dartlang.org/packages/cocoicons)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-success.svg?style=flat-square)](https://github.com/Mastersam07/cocoicons/pulls)
 
