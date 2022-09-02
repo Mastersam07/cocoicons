@@ -29,3 +29,6 @@ flutter:
    - family: cocobold
      fonts:
       - asset: fonts/cocobold.ttf
+   - family: cocoduotone
+     fonts:
+      - asset: fonts/cocoduotone.ttf
